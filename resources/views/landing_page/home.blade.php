@@ -28,10 +28,10 @@
     @include("navbar")
 
     <!-- home page -->
-            <section class="home-page">
+            <section class="home-page mb-4">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-6 text-white content1 mt-5">
+                        <div class="col-md-6 text-white content1">
                             <div class="header">
                                 <h1 class="fw-bold">Welcome <span class="regular fw-normal">In</span></h1>
                                 <h1 class="fw-bold">Digital Blue Ocean</h1>

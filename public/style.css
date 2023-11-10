@@ -19,7 +19,7 @@
 /* footer */
 .container-bg1 .footer {
     height: 100%;
-    background-image: linear-gradient(to right, #327D95, #16628C);
+    background: linear-gradient(to right, #327D95, #16628C);
 }
 
 .container-bg1 .main-content-footer {
@@ -112,9 +112,6 @@
 /* akhir searchbar */
 
 /* viewboard */
-.container-bg1 .viewboard {
-    height: 100vh;
-}
 
 .container-bg1 .viewboard .content1 {
     border-radius: 6px;
@@ -129,6 +126,7 @@
     border-radius: 6px;
     background-color: #CDD1FB;
 }
+
 
 .container-bg1 .viewboard .main {
     margin-top: 10px;
@@ -297,3 +295,100 @@ section.signup-page a {
     color: black;
 }
 /* akhir signup page */
+
+
+
+/*dashboard */
+
+.container-bg2 {
+    background-color: #D5D5D5;
+    font-family: "montserrat", "roboto", "poppins";  
+    width: 100%;
+    padding: 20px;
+}
+
+/* akhir dashboard */
+
+/* search collections - dashboard */
+.container-bg2 .search-collections .header {
+    display: grid;
+    place-items: center;
+}
+
+.container-bg2 .search-collections .tittle {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .author {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .year {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .subjects {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .search {
+    background-color: #1E5391;
+}
+/* search collections - dashboard */
+
+/* admin panel */
+.container-bg2 .admin-panel a {
+    text-decoration: none;
+}
+
+.container-bg2 .admin-panel .divider {
+    color: #000; /* Warna karakter "|" */
+    margin: 0 2px; /* Margin horizontal antara karakter "|" dan teks */
+}
+/* akhir admin panel */
+
+/* manage deposits */
+.container-bg2 .manage-deposits .btn {
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .table-spacing th {
+    background-color: #F7F7F7;
+}
+/* akhir manage deposits */
+
+/* edit item */
+.container-bg2 .edit-item {
+    height: 1500px;
+}
+
+.container-bg2 .edit-item .btn {
+    filter: drop-shadow(0px 1px 1px black);
+    -webkit-filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content {
+    height: 100vh;
+}
+
+/* akhir edit item */
+
+
+
+
+
+/* review page */
+.container-bg2 .review {
+    height: 100vh;
+}
+/* akhir review page */

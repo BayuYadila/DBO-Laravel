@@ -36,9 +36,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-3 d-grid gap-2 mt-sm-5">
-                        <input type="text" class="form-control" id="email" name="email" required placeholder="Name">
-                        <input type="password" class="form-control" id="password" name="password" required placeholder="Email">
-                        <input type="password" class="form-control" id="password" name="password" required placeholder="Username">
+                        <input type="text" class="form-control" id="name" name="name" required placeholder="Name">
+                        <input type="text" class="form-control" id="email" name="password" required placeholder="Email">
+                        <input type="text" class="form-control" id="username" name="username" required placeholder="Username">
                         <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
                         <button type="submit" class="btn btn-primary">Sign Up</button>
                         <p class="text-center separator-line mt-3">or</p>
