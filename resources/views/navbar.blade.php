@@ -2,9 +2,9 @@
         
         
             <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-                <div class="container">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('assets/logo_DBOTulisanKanan.svg') }}" alt="Logo DBO" width="150">
+                        <img src="{{ asset('assets/logo_DBOTulisanKanan.svg') }}" class="ms-5" alt="Logo DBO" width="150">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
                             <a class="nav-link active text-white fw-bold mx-2" aria-current="page" href="/contact-us">Contact</a>
                         </li>
                         </ul>
-                        <a class="btn btn-outline-info d-flex mx-2" aria-current="page" href="/login">Log in</a>
+                        <a class="btn btn-outline-info d-flex mx-2 me-5" aria-current="page" href="/login">Log in</a>
                 </div>
                 </div>
             </nav>

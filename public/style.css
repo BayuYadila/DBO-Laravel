@@ -351,14 +351,17 @@ section.signup-page a {
 }
 /* akhir admin panel */
 
-/* manage deposits */
-.container-bg2 .manage-deposits .btn {
-    filter: drop-shadow(0px 1px 1px black);
-}
-
+/* bg-main-content */
 .container-bg2 .bg-main-content {
     background-color: #F7F7F7;
     border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* Akhir bg-main-content */
+
+
+/* manage deposits */
+.container-bg2 .manage-deposits .btn {
     filter: drop-shadow(0px 1px 1px black);
 }
 
@@ -368,17 +371,24 @@ section.signup-page a {
 /* akhir manage deposits */
 
 /* edit item */
-.container-bg2 .edit-item {
-    height: 1500px;
-}
-
 .container-bg2 .edit-item .btn {
     filter: drop-shadow(0px 1px 1px black);
-    -webkit-filter: drop-shadow(0px 1px 1px black);
 }
 
-.container-bg2 .bg-main-content {
-    height: 100vh;
+.container-bg2 .edit-item .upload-item .text-main-content {
+    text-align: justify;
+}
+
+.container-bg2 .edit-item .publication-details .content-refereed-publicationdetails {
+    margin-left: 300px;
+}
+
+.container-bg2 .edit-item .publication-details .content-status-publicationdetails {
+    margin-left: 300px;
+}
+
+.container-bg2 .edit-item .publication-details .content-datatype-publicationdetails {
+    margin-left: 300px;
 }
 
 /* akhir edit item */
