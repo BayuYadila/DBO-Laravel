@@ -24,41 +24,39 @@
     <body>
 
     <!-- Navbar -->
-        <div class="container-bg1">
-            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">
-                        <img src="{{ asset('assets/logo_DBOTulisanKanan.svg') }}" class="ms-5" alt="Logo DBO" width="150">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mt-2">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active text-white fw-bold" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active text-white fw-bold" aria-current="page" href="/search-books">Search Books</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active text-white fw-bold" aria-current="page" href="/statistics">Statistics</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active text-white fw-bold" aria-current="page" href="/related-links">Related Links</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active text-white fw-bold" aria-current="page" href="/about-us">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white fw-bold mx-2" aria-current="page" href="/contact-us">Contact</a>
-                        </li>
-                        </ul>
-                        <a class="btn btn-outline-info d-flex me-5 mx-2" aria-current="page" href="/login">Log in</a>
-                </div>
-                </div>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="{{ asset('assets/logo_DBOTulisanKanan.svg') }}" class="ms-5" alt="Logo DBO" width="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mt-2">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/search-books">Search Books</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/statistics">Statistics</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/related-links">Related Links</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/about-us">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fw-bold mx-2" aria-current="page" href="/contact-us">Contact</a>
+                    </li>
+                    </ul>
+                    <a class="btn btn-outline-info d-flex mx-2 me-5" aria-current="page" href="/login">Log in</a>
+            </div>
+            </div>
+        </nav>
 
     
         <div class="container-bg2">
@@ -79,21 +77,22 @@
     <!-- Akhir Search Collections -->
             
     <!-- Admin Panel -->
-        <div class="container bg-white admin-panel mt-lg-4 p-lg-3 rounded">
-            <div class="container d-flex justify-content-center gap-lg-4 mt-lg-2">
-                <p>Logged in <span class="text-primary">as Admin Digital Blue Ocean</span></p>
-                <span class="divider">|</span>
-                <a href="/manage-deposits" class="text-primary">Manage Deposits</a>
-                <span class="divider">|</span>
-                <a href="/profile" class="text-primary">Profile</a>
-                <span class="divider">|</span>
-                <a href="/review" class="text-primary">Review</a>
-                <span class="divider">|</span>
-                <a href="/admin" class="text-primary">Admin</a>
-                <span class="divider">|</span>
-                <a href="/logout" class="text-primary">Logout</a>
-            </div>
+    <div class="container bg-white admin-panel mt-lg-4 p-lg-3 rounded">
+        <div class="container-fluid d-lg-flex justify-content-lg-center gap-lg-4 mt-lg-2 d-sm-block d-md-none">
+            <p>Logged in <span class="text-primary">as Admin Digital Blue Ocean</span></p>
+            <span class="divider">|</span>
+            <a href="/manage-deposits" class="text-primary">Manage Deposits</a>
+            <span class="divider">|</span>
+            <a href="/profile" class="text-primary">Profile</a>
+            <span class="divider">|</span>
+            <a href="/review" class="text-primary">Review</a>
+            <span class="divider">|</span>
+            <a href="/admin" class="text-primary">Admin</a>
+            <span class="divider">|</span>
+            <a href="/logout" class="text-primary">Logout</a>
         </div>
+    </div>
+    
     <!-- Akhir Admin Panel -->
 
     <!-- Main Content -->
@@ -106,10 +105,8 @@
     <!-- Akhir Main Content -->
         
     <!-- Footer -->
-        <div class="container-bg1">
-            <div class="container-fluid footer main-content-footer text-white">
-                <p>Everything Made With ❤️ by Alphabet Incubator.</p>
-            </div>
+        <div class="container-fluid footer d-flex justify-content-center align-items-center text-white">
+            <p class="footer-content">Everything Made With ❤️ by Alphabet Incubator.</p>
         </div>
     
 

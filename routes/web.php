@@ -56,3 +56,7 @@ Route::get('/edit-item', function () {
 Route::get('/review', function () {
     return view('dashboard/review');
 });
+
+Route::get('/detail', function () {
+    return view('dashboard/detail');
+});

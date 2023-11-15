@@ -9,13 +9,13 @@
             <div class="container header-button d-flex justify-content-center gap-2">
                 <button type="submit" class="btn btn-warning text-white mt-4 col">Submission Center</button>
                 <button type="" class="btn mt-4">></button>
-                <button type="submit" class="btn btn-warning text-white mt-4 col">Subjects</button>
+                <button type="submit" class="btn btn-warning text-white mt-4 col">Keywords</button>
                 <button type="" class="btn mt-4">></button>
                 <button type="submit" class="btn btn-warning text-white mt-4 col">Deposits</button>
             </div>
     
     <!-- Submission Center -->
-        <div class="container bg-main-content mt-3 p-5">
+        <div class="container bg-main-content-submissioncenter mt-3 p-5">
         
     <!-- Item Type - Submission Center -->
         <div class="container justify-content-center bg-white rounded p-3 d-flex">
@@ -471,7 +471,7 @@
                 </div>
                 </div>
                 </div>
-            <!-- Akhir Status - Publication Details -->
+            <!-- Akhir Data Type - Publication Details -->
         </div>
     <!-- Akhir Publication Detail - Submission Center -->
 
@@ -513,7 +513,15 @@
         </div>
     <!-- Akhir References - Submission Center -->
         </div>
-    <!-- Submission Center -->
+    <!-- Akhir Submission Center -->
+
+    <!-- Keywords -->
+        <div class="container bg-main-content-keywords mt-3 p-5">
+            <h5>Keywords</h5>
+        </div>
+
+
+    <!-- Akhir Keywords -->
 
 
 

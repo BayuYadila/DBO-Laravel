@@ -10,22 +10,19 @@
 }
 
 /* navbar */
-.container-bg1 .navbar {
+.navbar {
     background: linear-gradient(to right, #327D95, #16628C);
     filter: drop-shadow(2px 2px 2px black);
 }
 /* akhir navbar */
 
 /* footer */
-.container-bg1 .footer {
-    height: 100%;
+.footer {
     background: linear-gradient(to right, #327D95, #16628C);
+    height: 300px;
 }
 
-.container-bg1 .main-content-footer {
-    text-align: center;
-    padding-top: 150px;
-    height: 300px;
+.footer .footer-content {
     opacity: 50%;
 }
 /* akhir footer */
@@ -296,17 +293,13 @@ section.signup-page a {
 }
 /* akhir signup page */
 
-
-
 /*dashboard */
-
 .container-bg2 {
     background-color: #D5D5D5;
     font-family: "montserrat", "roboto", "poppins";  
     width: 100%;
     padding: 20px;
 }
-
 /* akhir dashboard */
 
 /* search collections - dashboard */
@@ -351,14 +344,13 @@ section.signup-page a {
 }
 /* akhir admin panel */
 
-/* bg-main-content */
-.container-bg2 .bg-main-content {
+/* bg-main-content-submissioncenter */
+.container-bg2 .bg-main-content-submissioncenter {
     background-color: #F7F7F7;
     border-radius: 10px;
     filter: drop-shadow(0px 1px 1px black);
 }
-/* Akhir bg-main-content */
-
+/* Akhir bg-main-content-submissioncenter */
 
 /* manage deposits */
 .container-bg2 .manage-deposits .btn {
@@ -390,10 +382,22 @@ section.signup-page a {
 .container-bg2 .edit-item .publication-details .content-datatype-publicationdetails {
     margin-left: 300px;
 }
-
 /* akhir edit item */
 
 
+/* bg-main-content-keywords */
+.container-bg2 .bg-main-content-keywords {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* Akhir bg-main-content-keywords */
+
+/* detail page */
+.container-bg2 .detail-page .main-text {
+    text-align: justify;
+}
+/* akhir detail page */
 
 
 

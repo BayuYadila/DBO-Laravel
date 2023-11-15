@@ -23,9 +23,11 @@
     </head>
     <body>
     
-    <div class="container-bg1">
-
     @include("navbar")
+    
+    <div class="container-bg1">
+    
+    
 
     <!-- home page -->
             <section class="home-page mb-4">
@@ -59,16 +61,11 @@
     @include("landing_page.contact-us")
 
     @include("landing_page.related-links")
-
-    @include("footer")
+    
     
     </div>
-    
-    
 
-    
-
-    
+    @include("footer")
 
         <!-- Optional JavaScript; choose one of the two! -->
 
