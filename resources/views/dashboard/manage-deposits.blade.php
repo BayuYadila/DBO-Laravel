@@ -8,7 +8,7 @@
     <section class="container manage-deposits mt-4 bg-white rounded">
         <div class="text-center pt-4">
             <h1 class="tittle fw-bold">Manage Deposits</h1>
-            <a href="/edit-item" class="btn btn-warning text-white mt-4">NEW ITEM</a>
+            <a href="/submission-center" class="btn btn-warning text-white mt-4">NEW ITEM</a>
         </div>        
 
         <div class="container bg-main-content mt-3 p-3">

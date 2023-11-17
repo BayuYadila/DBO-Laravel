@@ -5,14 +5,16 @@
 @section ("content")
 
         <section class="container edit-item mt-4 bg-white rounded">
+    <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex justify-content-center gap-2">
-                <button type="submit" class="btn btn-warning text-white mt-4 col">Submission Center</button>
+                <a href="/submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
                 <button type="" class="btn mt-4">></button>
-                <button type="submit" class="btn btn-warning text-white mt-4 col">Keywords</button>
+                <a href="/keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
                 <button type="" class="btn mt-4">></button>
-                <button type="submit" class="btn btn-warning text-white mt-4 col">Deposits</button>
+                <a href="/deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
             </div>
+    <!-- Akhir Header Button -->
     
     <!-- Submission Center -->
         <div class="container bg-main-content-submissioncenter mt-3 p-5">
@@ -210,9 +212,7 @@
                 container.appendChild(inputGroup);
         
                 return container;
-            }
-
-           
+            }           
         </script>
     <!-- Akhir Content Author - Submission Center -->
 
@@ -514,23 +514,13 @@
     <!-- Akhir References - Submission Center -->
         </div>
     <!-- Akhir Submission Center -->
-
-    <!-- Keywords -->
-        <div class="container bg-main-content-keywords mt-3 p-5">
-            <h5>Keywords</h5>
-        </div>
-
-
-    <!-- Akhir Keywords -->
-
-
-
         
+    <!-- Footer Button -->
         <div class="footer-button p-4 d-flex justify-content-center gap-3">
-            <button type="submit" class="btn btn-warning text-white">Previous</button>
-            <button type="submit" class="btn btn-warning text-white">Save and Return</button>
-            <button type="submit" class="btn btn-warning text-white">Next</button>
+            <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
+            <a href="/keywords" class="btn btn-warning text-white">Next</a>
         </div>
+    <!-- Akhir Footer Button -->
     </section>
 
 

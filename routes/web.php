@@ -49,8 +49,16 @@ Route::get('/manage-deposits', function () {
     return view('dashboard/manage-deposits');
 });
 
-Route::get('/edit-item', function () {
-    return view('dashboard/edit-item');
+Route::get('/submission-center', function () {
+    return view('dashboard/submission-center');
+});
+
+Route::get('/keywords', function () {
+    return view('dashboard/keywords');
+});
+
+Route::get('/deposits', function () {
+    return view('dashboard/deposits');
 });
 
 Route::get('/review', function () {

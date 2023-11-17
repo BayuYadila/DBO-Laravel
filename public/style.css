@@ -344,14 +344,6 @@ section.signup-page a {
 }
 /* akhir admin panel */
 
-/* bg-main-content-submissioncenter */
-.container-bg2 .bg-main-content-submissioncenter {
-    background-color: #F7F7F7;
-    border-radius: 10px;
-    filter: drop-shadow(0px 1px 1px black);
-}
-/* Akhir bg-main-content-submissioncenter */
-
 /* manage deposits */
 .container-bg2 .manage-deposits .btn {
     filter: drop-shadow(0px 1px 1px black);
@@ -362,8 +354,15 @@ section.signup-page a {
 }
 /* akhir manage deposits */
 
-/* edit item */
+/* edit item = submission-center */
 .container-bg2 .edit-item .btn {
+    filter: drop-shadow(0px 1px 1px black);
+    -webkit-filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content-submissioncenter {
+    background-color: #F7F7F7;
+    border-radius: 10px;
     filter: drop-shadow(0px 1px 1px black);
 }
 
@@ -382,16 +381,35 @@ section.signup-page a {
 .container-bg2 .edit-item .publication-details .content-datatype-publicationdetails {
     margin-left: 300px;
 }
-/* akhir edit item */
+/* akhir edit item = submission center */
 
-
-/* bg-main-content-keywords */
+/* edit item = keywords */
 .container-bg2 .bg-main-content-keywords {
     background-color: #F7F7F7;
     border-radius: 10px;
     filter: drop-shadow(0px 1px 1px black);
 }
-/* Akhir bg-main-content-keywords */
+
+.container-bg2 .bg-main-content-keywords .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* akhir edit item = keywords */
+
+/* edit item = deposits */
+.container-bg2 .bg-main-content-deposits {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content-deposits .main-text-deposits {
+    text-align: justify;
+}
+
+/* akhir edit item = deposits */
+
+
 
 /* detail page */
 .container-bg2 .detail-page .main-text {
