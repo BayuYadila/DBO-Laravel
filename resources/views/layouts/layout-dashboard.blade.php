@@ -62,18 +62,20 @@
         <div class="container-bg2">
     <!-- Search Collections -->        
         <div class="container bg-white search-collections text-center p-3 rounded">
-            <div class="header mt-2">    
+            <div class="header mt-2">
                 <h1 class="fw-bold">Search for collections on Digital Blue Ocean</h1>
-                <div class="mb-3 d-flex gap-2">
-                    <input type="text" class="form-control" id="tittle" aria-describedby="tittle" placeholder="Tittle">
-                    <input type="text" class="form-control" id="author" aria-describedby="author" placeholder="Author">
-                    <input type="text" class="form-control" id="year" aria-describedby="year" placeholder="Year">
-                    <input type="text" class="form-control" id="subjects" aria-describedby="subjects" placeholder="Subjects">
-                    <button type="submit" class="btn btn-primary">Search</button>
+                <form action="#" method="get" class="mb-3">
+                    <div class="d-flex gap-2">
+                        <input type="text" class="form-control" name="title" id="title" aria-describedby="title" placeholder="Title">
+                        <input type="text" class="form-control" name="author" id="author" aria-describedby="author" placeholder="Author">
+                        <input type="text" class="form-control" name="year" id="year" aria-describedby="year" placeholder="Year">
+                        <input type="text" class="form-control" name="subjects" id="subjects" aria-describedby="subjects" placeholder="Subjects">
+                        <button type="submit" class="btn btn-primary">Search</button>
                     </div>
+                </form>
                 <p class="fw-bold text-primary">+Advanced Search</p>
             </div>
-        </div>
+        </div>    
     <!-- Akhir Search Collections -->
             
     <!-- Admin Panel -->
