@@ -349,6 +349,12 @@ section.signup-page a {
     filter: drop-shadow(0px 1px 1px black);
 }
 
+.container-bg2 .manage-deposits .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
 .container-bg2 .table-spacing th {
     background-color: #F7F7F7;
 }
@@ -409,15 +415,37 @@ section.signup-page a {
 
 /* akhir edit item = deposits */
 
-
-
 /* detail page */
 .container-bg2 .detail-page .main-text {
     text-align: justify;
 }
 /* akhir detail page */
 
+/* Dashboard - Admin */
+.container-bg2 .dashboard-admin .bg-header {
+    box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.2);
+}
 
+.container-bg2 .dashboard-admin .navigation-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-bg2 .dashboard-admin .btn {
+    filter: drop-shadow(0px 1px 1px black);
+    -webkit-filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .dashboard-admin .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .table-spacing th {
+    background-color: #F7F7F7;
+}
+/* akhir manage deposits */
 
 /* review page */
 .container-bg2 .review {

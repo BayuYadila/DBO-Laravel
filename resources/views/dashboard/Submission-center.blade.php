@@ -342,14 +342,54 @@
                 </div>
             <!-- akhir Publisher - publication details -->
 
-            <!-- ISSN - publication details -->
+            {{-- upload image cover --}}
+            <div class="container mt-5 bg-white rounded upload-item p-3">
+                <h5 class="text-center fw-bold text-header-content">ADD A COVER JOURNAL (OPSIONAL)</h5>
+                <p class="text-main-content">To upload an image to this repository, click the 'Browse' button below to select an image file, then click 'Upload' to add it to the archive. You can include additional images within the document or upload more images to create additional documents. Choose the images you wish to upload, attach them by clicking the upload button below, and proceed with the upload to continue the process.</p>
+                <ul class="nav nav-tabs justify-content-center mt-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="localTab" data-bs-toggle="tab" href="#uploadLocal">Upload File from Local</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkTab" data-bs-toggle="tab" href="#uploadLink">Upload File from Link</a>
+                    </li>
+                </ul>
+    
+            <div class="tab-content mt-4">
+                <div class="tab-pane fade show active" id="uploadLocal">
+                    <form>
+                        <div class="mb-3">
+                            <label for="localFile" class="form-label">Choose File</label>
+                            <input type="file" class="form-control" id="localFile" accept=".png, .jpeg">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Upload</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="uploadLink">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fileLink" class="form-label">File Link</label>
+                            <input type="url" class="form-control" id="fileLink" placeholder="Enter file link">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Upload</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+            {{-- akhir upload image cover --}}
+
+            <!-- Official URL - publication details -->
                 <div class="container content-issn-publicationdetails mt-5">
                     <h5 class="fw-bold">OFFICIAL URL :</h5>
                     <form>
                         <input type="text" class="form-control" id="issnpublicationdetails" placeholder="Enter your official url journal">
                     </form>
                 </div>
-            <!-- akhir ISSN - publication details -->
+            <!-- akhir Official URL - publication details -->
 
             <!-- Volume - publication details -->
                 <div class="container content-volume-publicationdetails mt-5">

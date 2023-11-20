@@ -68,3 +68,7 @@ Route::get('/review', function () {
 Route::get('/detail', function () {
     return view('dashboard/detail');
 });
+
+Route::get('/dashboard-admin', function () {
+    return view('dashboard/dashboard-admin');
+});
