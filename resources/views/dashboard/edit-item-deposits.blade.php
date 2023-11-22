@@ -8,11 +8,11 @@
     <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex justify-content-center gap-2">
-                <a href="/submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
+                <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
+                <a href="/edit-item-keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
+                <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
             </div>
     <!-- akhir Header Button -->
 
@@ -46,7 +46,7 @@
 
     <!-- Footer Button -->
         <div class="footer-button p-4 d-flex justify-content-center gap-3">
-            <a href="/keywords" class="btn btn-warning text-white">Previous</a>
+            <a href="/edit-item-keywords" class="btn btn-warning text-white">Previous</a>
             <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
         </div> 
         <!-- akhir Footer Button -->           

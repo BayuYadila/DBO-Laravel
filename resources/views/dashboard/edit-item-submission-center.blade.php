@@ -8,11 +8,11 @@
     <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex justify-content-center gap-2">
-                <a href="/submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
+                <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
+                <a href="/edit-item-keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
+                <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
             </div>
     <!-- Akhir Header Button -->
     
@@ -27,18 +27,18 @@
                     Choose Item Type
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Article')">Article</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Book Section')">Book Section</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Book')">Book</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Thesis')">Thesis</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Conference of Workshop Item')">Conference of Workshop Item</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeText('Other')">Other</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Article')">Article</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book Section')">Book Section</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book')">Book</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Thesis')">Thesis</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Conference of Workshop Item')">Conference of Workshop Item</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Other')">Other</a></li>
                 </ul>
             </div>
         </div>
         
         <script>
-            function changeText(text) {
+            function changeTextItemType(text) {
                 document.querySelector('.btn.btn-primary.dropdown-toggle').innerText = text;
             }
         </script>
@@ -83,6 +83,27 @@
         </div>
         </div>
     <!-- Akhir Upload Item - Submission Center -->
+
+    <!-- Language - Submission Center -->
+        <div class="container justify-content-center bg-white mt-5 rounded p-3 d-flex">
+            <h5 class="me-3 fw-bold">LANGUAGE:</h5>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose language
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('English')">English</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('Indonesia')">Indonesia</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <script>
+            function changeTextLanguage(text) {
+                document.getElementById('languageDropdown').innerText = text;
+            }
+        </script>    
+    <!-- Akhir Language - Submission Center -->
 
     <!-- Content Tittle - Submission Center -->
         <div class="container mt-5 bg-white p-3 rounded">
@@ -558,7 +579,7 @@
     <!-- Footer Button -->
         <div class="footer-button p-4 d-flex justify-content-center gap-3">
             <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
-            <a href="/keywords" class="btn btn-warning text-white">Next</a>
+            <a href="/edit-item-keywords" class="btn btn-warning text-white">Next</a>
         </div>
     <!-- Akhir Footer Button -->
     </section>

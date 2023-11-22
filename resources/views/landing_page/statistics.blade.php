@@ -43,7 +43,7 @@
                                 <tr>
                                 <td>
                         <div class="explore-more mt-3">
-                            <a class="me-3" href="">EXPLORE MORE</a>
+                            <a class="me-3" href="/dashboard-admin">EXPLORE MORE</a>
                                 <img src="assets/img/Vector.svg" alt="">
                         </div>
                                 </td>
@@ -54,16 +54,38 @@
 
                     <div class="col-md-6">
                         <div class="content1-right d-flex justify-content-center flex-wrap">
-                            <div class="kotak kotak1"></div>
-                            <div class="kotak kotak2"></div>
-                            <div class="kotak kotak3"></div>
-                            <div class="kotak kotak4"></div>
+                            <div class="kotak kotak1 d-flex justify-content-center gap-3">
+                                <img src="{{ asset('assets/img_totalitems.svg') }}" width="100" alt="Total Items">
+                                <div class="d-block justify-content-center mt-4 align-items-center">
+                                    <h3 class="fw-bold text-center">1,999</h3>
+                                    <p class="fw-bold text-center">Items</p>
+                                </div>
+                            </div>
+                            <div class="kotak kotak2 d-flex justify-content-center gap-3">
+                                <img src="{{ asset('assets/img_totaldownloads.svg') }}" width="80" alt="Total Downloads">
+                                <div class="d-block justify-content-center mt-4 align-items-center">
+                                    <h3 class="fw-bold text-center">1,407</h3>
+                                    <p class="fw-bold text-center">Downloads</p>
+                                </div>
+                            </div>
+                            <div class="kotak kotak3 d-flex justify-content-center gap-3">
+                                <img src="{{ asset('assets/img_fulltext.svg') }}" width="100" alt="Full Text">
+                                <div class="d-block justify-content-center mt-4 align-items-center">
+                                    <h3 class="fw-bold text-center">100%</h3>
+                                    <p class="fw-bold text-center">Full Text</p>
+                                </div>
+                            </div>
+                            <div class="kotak kotak4 d-flex justify-content-center">
+                                <img src="{{ asset('assets/img_openaccess.svg') }}" width="100" alt="Open Access">
+                                <div class="d-block justify-content-center mt-4 align-items-center">
+                                    <h3 class="fw-bold text-center">71%</h3>
+                                    <p class="fw-bold text-center">Open Access</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-             
         </section>
 
         <section class="top-download mt-6 mb-5 ">

@@ -8,16 +8,16 @@
     <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex justify-content-center gap-2">
-                <a href="/submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
+                <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
+                <a href="/edit-item-keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
                 <button type="" class="btn mt-4">></button>
-                <a href="/deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
+                <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
             </div>
     <!-- akhir Header Button -->
 
     <!-- Keywords -->
-        <div class="container bg-main-content-keywords mt-3 p-2">
+        <div class="container bg-main-content-edit-item-keywords mt-3 p-2">
 
     <!-- filter keywords -->
         <div class="container mt-3 p-5">
@@ -148,14 +148,65 @@
         </script>
     <!-- akhir main content keywords -->
 
+    <!-- Form untuk menambahkan keyword baru -->
+        <div class="container mt-3">
+            <h5 class="fw-bold text-center">Add New Keyword:</h5>
+            <form class="d-flex justify-content-center align-items-center flex-column mt-3">
+                <div class="mb-3">
+                    <label for="newKeyword" class="form-label">New Keyword:</label>
+                    <input type="text" class="form-control" id="newKeyword" placeholder="Enter new keyword">
+                </div>
+                <div class="mb-3">
+                    <label for="selectCategory" class="form-label">Select Category:</label>
+                    <select class="form-select" id="selectCategory">
+                        <option value="general">General</option>
+                        <option value="technologies">Technologies</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="addNewKeyword()">Add Keyword</button>
+            </form>
+        </div>
+
+        <script>
+            function addNewKeyword() {
+                const newKeywordInput = document.getElementById('newKeyword').value;
+                const category = document.getElementById('selectCategory').value;
+
+                // Menambahkan keyword baru ke dalam daftar sesuai kategori yang dipilih
+                if (newKeywordInput.trim() !== '') {
+                    const targetList = category === 'general' ? document.getElementById('generalList') : document.getElementById('technologiesList');
+
+                    const keywordItem = document.createElement('div');
+                    keywordItem.classList.add('d-flex', 'align-items-center', 'mt-2');
+
+                    const addButton = document.createElement('button');
+                    addButton.classList.add('btn', 'btn-outline-primary', 'add-keyword');
+                    addButton.textContent = 'ADD';
+                    addButton.setAttribute('onclick', 'addKeyword(this)');
+
+                    const newKeywordText = document.createElement('p');
+                    newKeywordText.classList.add('ms-2', 'mb-0');
+                    newKeywordText.textContent = newKeywordInput;
+
+                    keywordItem.appendChild(addButton);
+                    keywordItem.appendChild(newKeywordText);
+
+                    // Menambahkan keyword baru ke dalam daftar yang dipilih
+                    targetList.querySelector('.p-2').appendChild(keywordItem); // Menggunakan querySelector untuk menemukan konten div p-2 di dalam targetList
+                } else {
+                    alert('Please enter a keyword.');
+                }
+            }
+        </script>
+
         </div>
     <!-- akhir Keywords -->
 
     <!-- Footer Button -->
             <div class="footer-button p-4 d-flex justify-content-center gap-3">
-                <a href="/submission-center" class="btn btn-warning text-white">Previous</a>
+                <a href="/edit-item-submission-center" class="btn btn-warning text-white">Previous</a>
                 <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
-                <a href="/deposits" class="btn btn-warning text-white">Next</a>
+                <a href="/edit-item-deposits" class="btn btn-warning text-white">Next</a>
             </div>        
         <!-- Akhir Footer Button -->    
         </section>

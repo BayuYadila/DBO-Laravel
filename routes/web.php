@@ -49,16 +49,16 @@ Route::get('/manage-deposits', function () {
     return view('dashboard/manage-deposits');
 });
 
-Route::get('/submission-center', function () {
-    return view('dashboard/submission-center');
+Route::get('/edit-item-submission-center', function () {
+    return view('dashboard/edit-item-submission-center');
 });
 
-Route::get('/keywords', function () {
-    return view('dashboard/keywords');
+Route::get('/edit-item-keywords', function () {
+    return view('dashboard/edit-item-keywords');
 });
 
-Route::get('/deposits', function () {
-    return view('dashboard/deposits');
+Route::get('/edit-item-deposits', function () {
+    return view('dashboard/edit-item-deposits');
 });
 
 Route::get('/review', function () {
@@ -71,4 +71,16 @@ Route::get('/detail', function () {
 
 Route::get('/dashboard-admin', function () {
     return view('dashboard/dashboard-admin');
+});
+
+Route::get('/admin-status', function () {
+    return view('dashboard/admin-status');
+});
+
+Route::get('/admin-create-user', function () {
+    return view('dashboard/admin-create-user');
+});
+
+Route::get('/admin-edit-keywords', function () {
+    return view('dashboard/admin-edit-keywords');
 });
