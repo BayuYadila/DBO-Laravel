@@ -374,18 +374,6 @@ section.signup-page a {
 .container-bg2 .edit-item .upload-item .text-main-content {
     text-align: justify;
 }
-
-.container-bg2 .edit-item .publication-details .content-refereed-publicationdetails {
-    margin-left: 300px;
-}
-
-.container-bg2 .edit-item .publication-details .content-status-publicationdetails {
-    margin-left: 300px;
-}
-
-.container-bg2 .edit-item .publication-details .content-datatype-publicationdetails {
-    margin-left: 300px;
-}
 /* akhir edit item = submission center */
 
 /* edit item = keywords */
@@ -446,6 +434,34 @@ section.signup-page a {
 }
 /* akhir manage deposits */
 
+/* Profile page */
+.container-bg2 .profile-page .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* akhir Profile page */
+
+/* Profile-edit-user page */
+.container-bg2 .profile-edit-user .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .profile-edit-user .bg-main-username {
+    background-color: #1E5391;
+}
+
+.container-bg2 .profile-edit-user .bg-main-account-detail {
+    background-color: #1E5391;
+}
+
+.container-bg2 .profile-edit-user .bg-main-personal-details {
+    background-color: #1E5391;
+}
+/* akhir Profile-edit-user page */
+
 /* review page */
 .container-bg2 .review-admin .bg-main-content {
     background-color: #F7F7F7;
@@ -489,6 +505,4 @@ section.signup-page a {
     border-radius: 10px;
     filter: drop-shadow(0px 1px 1px black);
 }
-
-
 /* akhir admin edit keywords */

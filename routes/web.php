@@ -61,6 +61,14 @@ Route::get('/edit-item-deposits', function () {
     return view('dashboard/edit-item-deposits');
 });
 
+Route::get('/profile', function () {
+    return view('dashboard/profile');
+});
+
+Route::get('/profile-edit-user', function () {
+    return view('dashboard/profile-edit-user');
+});
+
 Route::get('/review', function () {
     return view('dashboard/review');
 });

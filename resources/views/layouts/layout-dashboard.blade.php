@@ -98,13 +98,14 @@
             <span class="divider">|</span>
             <a href="/manage-deposits" class="text-primary">Manage Deposits</a>
             <span class="divider">|</span>
+            <a href="/dashboard-admin" class="text-primary">All Collections</a>
+            <span class="divider">|</span>
             <a href="/profile" class="text-primary">Profile</a>
             <span class="divider">|</span>
             <a href="/review" class="text-primary">Review</a>
             <span class="divider">|</span>
             <a href="/admin-status" class="text-primary">Admin</a>
-            <span class="divider">|</span>
-            <a href="/logout" class="text-primary">Logout</a>
+            
         </div>
     </div>
     

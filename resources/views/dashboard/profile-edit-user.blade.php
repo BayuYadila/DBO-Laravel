@@ -1,17 +1,12 @@
 @extends("layouts.layout-dashboard")
 
-@section("tittle", "Create User")
+@section("tittle", "Edit User")
 
 @section ("content")
 
-        <section class="container admin-create-user mt-4 bg-white rounded p-3">
+        <section class="container profile-edit-user mt-4 bg-white rounded p-3">
     <!-- Header Button -->
-            <h1 class="container header-tittle pt-4 fw-bold text-center">Admin</h1>
-            <div class="container header-button d-flex justify-content-center gap-2">
-                <a href="/admin-status" class="btn btn-warning text-white mt-4 col">Status</a>
-                <a href="/admin-create-user" class="btn btn-warning text-white mt-4 col">Create User</a>
-                <a href="/admin-edit-keywords" class="btn btn-warning text-white mt-4 col">Edit Keywords</a>
-            </div>
+            <h1 class="container header-tittle pt-4 fw-bold">Edit</h1>
     <!-- Akhir Header Button -->
     
     <!-- Backround Main Admin create user -->
@@ -109,7 +104,7 @@
 
     <div class="footer-button p-4 d-flex justify-content-center gap-3">
         <a href="/" class="btn btn-primary w-25 text-white">Cancel</a>
-        <a href="/" class="btn btn-primary w-25 text-white">Finish Create</a>
+        <a href="/" class="btn btn-primary w-25 text-white">Save</a>
     </div>
 
     {{-- akhir action footer button --}}
