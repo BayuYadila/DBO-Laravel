@@ -446,7 +446,7 @@
                     <h5 class="fw-bold">DATE :</h5>
                     <form class="d-flex gap-2">
                         <h5>Year:</h5>
-                        <input type="text" class="form-control" id="datepublicationdetails1" placeholder="from page">
+                        <input type="text" class="form-control" id="datepublicationdetails1" placeholder="Select Year">
                         <h5>Month:</h5>
                         <select class="form-select" id="datepublicationdetails2">
                             <option value="">Select Month</option>

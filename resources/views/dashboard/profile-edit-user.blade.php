@@ -30,7 +30,7 @@
                 </div>
                 <div class="form-check">
                     <label class="form-check-label" for="usertype3">
-                    <input class="form-check-input" type="radio" name="usertype" id="usertype2" value="option2">
+                    <input class="form-check-input" type="radio" name="usertype" id="usertype3" value="option3">
                         Repository Administrator
                     </label>
                 </div>

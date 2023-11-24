@@ -10,7 +10,7 @@
             <div class="container header-button d-flex justify-content-center gap-2">
                 <a href="/admin-status" class="btn btn-warning text-white mt-4 col">Status</a>
                 <a href="/admin-create-user" class="btn btn-warning text-white mt-4 col">Create User</a>
-                <a href="/admin-edit-keywords" class="btn btn-warning text-white mt-4 col">Edit Keywords</a>
+                {{-- <a href="/admin-edit-keywords" class="btn btn-warning text-white mt-4 col">Edit Keywords</a> --}}
             </div>
     <!-- Akhir Header Button -->
     
@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-check">
                     <label class="form-check-label" for="usertype3">
-                    <input class="form-check-input" type="radio" name="usertype" id="usertype2" value="option2">
+                    <input class="form-check-input" type="radio" name="usertype" id="usertype3" value="option3">
                         Repository Administrator
                     </label>
                 </div>

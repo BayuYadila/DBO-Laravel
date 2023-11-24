@@ -52,11 +52,11 @@
                 <p>Order by results:</p>
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle" type="button" id="orderByDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        By Year
+                        Sort by
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="orderByDropdown">
-                        <li><a class="dropdown-item" href="#" onclick="changeOrder('Most Recent First')">Most Recent First</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeOrder('Most Oldest First')">Most Oldest First</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeOrder('Recent First')">Recent First</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="changeOrder('Oldest First')">Oldest First</a></li>
                     </ul>
                 </div>
             </div>

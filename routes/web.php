@@ -89,6 +89,6 @@ Route::get('/admin-create-user', function () {
     return view('dashboard/admin-create-user');
 });
 
-Route::get('/admin-edit-keywords', function () {
-    return view('dashboard/admin-edit-keywords');
-});
+// Route::get('/admin-edit-keywords', function () {
+//     return view('dashboard/admin-edit-keywords');
+// });

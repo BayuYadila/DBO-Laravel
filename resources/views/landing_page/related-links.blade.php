@@ -11,10 +11,14 @@
             <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 col-12 text-center mb-4">
-                    <img src="{{ asset('assets/logo_bisdi.svg') }}" alt="Logo Bisdi" class="img-fluid" style="max-width: 100%;">
-                </div>
+                    <a href="https://bisnisdigital.raharja.ac.id">
+                        <img src="{{ asset('assets/logo_bisdi.svg') }}" alt="Logo Bisdi" class="img-fluid" style="max-width: 100%;">
+                    </a>
+                </div>                
                 <div class="col-md-6 col-12 text-center mb-4">
+                    <a href="https://raharja.ac.id/">
                     <img src="{{ asset('assets/logo_ur.svg') }}" alt="Logo UR" class="img-fluid" style="max-width: 100%;">
+                    </a>
                 </div>
             </div>
             </div>
