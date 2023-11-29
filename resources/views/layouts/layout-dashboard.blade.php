@@ -10,7 +10,7 @@
 
         <!-- css connect -->
         <link href="{{ asset('style.css') }}" rel="stylesheet">
-
+        
         <!-- font family -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

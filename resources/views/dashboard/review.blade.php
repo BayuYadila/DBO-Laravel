@@ -61,11 +61,11 @@
                                         <td class="text-center">1</td>
                                         <td class="text-center bg-white">
                                                 <div class="d-flex gap-2">
-                                                <img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item">
-                                                <img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item">
-                                                <img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item">
+                                                        <button onclick="editItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item"></button>
+                                                        <button onclick="publishItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item"></button>
+                                                        <button onclick="deleteItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item"></button>
                                                 </div>
-                                        </td>
+                                        </td>                                            
                                 </tr>                                        
                                 <tr>
                                         <td class="text-center">26 September 2023</td>
@@ -77,9 +77,9 @@
                                         <td class="text-center">1</td>
                                         <td class="text-center bg-white">
                                                 <div class="d-flex gap-2">
-                                                        <img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item">
-                                                        <img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item">
-                                                        <img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item">
+                                                        <button onclick="editItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item"></button>
+                                                        <button onclick="publishItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item"></button>
+                                                        <button onclick="deleteItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item"></button>
                                                 </div>
                                         </td>
                                 </tr>                    
@@ -93,9 +93,9 @@
                                         <td class="text-center">1</td>
                                         <td class="text-center bg-white">
                                                 <div class="d-flex gap-2">
-                                                        <img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item">
-                                                        <img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item">
-                                                        <img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item">
+                                                        <button onclick="editItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item"></button>
+                                                        <button onclick="publishItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item"></button>
+                                                        <button onclick="deleteItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item"></button>
                                                 </div>
                                         </td>
                                 </tr>                    
@@ -109,9 +109,9 @@
                                         <td class="text-center">1</td>
                                         <td class="text-center bg-white">
                                                 <div class="d-flex gap-2">
-                                                        <img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item">
-                                                        <img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item">
-                                                        <img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item">
+                                                        <button onclick="editItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item"></button>
+                                                        <button onclick="publishItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item"></button>
+                                                        <button onclick="deleteItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item"></button>
                                                 </div>
                                         </td>
                                 </tr>                    
@@ -125,9 +125,9 @@
                                         <td class="text-center">1</td>
                                         <td class="text-center bg-white">
                                                 <div class="d-flex gap-2">
-                                                        <img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item">
-                                                        <img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item">
-                                                        <img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item">
+                                                        <button onclick="editItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_edititemreview.svg') }}" alt="Edit Item"></button>
+                                                        <button onclick="publishItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_publishitemreview.svg') }}" alt="Publish Item"></button>
+                                                        <button onclick="deleteItemReview()" style="border: none; background-color: transparent;"><img src="{{ asset('assets/img_deleteitemreview.svg') }}" alt="Delete Item"></button>
                                                 </div>
                                         </td>
                                 </tr>                    
