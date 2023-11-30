@@ -65,10 +65,10 @@
             <h1 class="fw-bold">Search for collections on Digital Blue Ocean</h1>
             <form action="#" method="get" class="mb-3">
                 <div class="d-flex gap-2">
-                    <input type="text" class="form-control" name="title" id="title" aria-describedby="title" placeholder="Title">
-                    <input type="text" class="form-control" name="author" id="author" aria-describedby="author" placeholder="Author">
-                    <input type="text" class="form-control" name="year" id="year" aria-describedby="year" placeholder="Year">
-                    <input type="text" class="form-control" name="keyword" id="keyword" aria-describedby="keyword" placeholder="Keyword">
+                    <input type="text" class="form-control flex-fill" name="title" id="title" aria-describedby="title" placeholder="Title">
+                    <input type="text" class="form-control flex-fill" name="author" id="author" aria-describedby="author" placeholder="Author">
+                    <input type="text" class="form-control flex-fill" name="year" id="year" aria-describedby="year" placeholder="Year">
+                    <input type="text" class="form-control flex-fill" name="keyword" id="keyword" aria-describedby="keyword" placeholder="Keyword">
                     <button type="submit" class="btn btn-primary">Search</button>
                 </div>
                 <div class="advanced-search mt-2" style="display: none;">
@@ -92,7 +92,7 @@
     <!-- Akhir Search Collections -->
             
     <!-- Admin Panel -->
-    <div class="container bg-white admin-panel mt-lg-4 p-lg-3 rounded">
+    <div class="container bg-white admin-panel mt-4 p-lg-3 rounded">
         <div class="container-fluid d-lg-flex justify-content-lg-center gap-lg-4 mt-lg-2 d-sm-block d-md-none">
             <p>Logged in <span class="text-primary">as Admin Digital Blue Ocean</span></p>
             <span class="divider">|</span>

@@ -7,13 +7,13 @@
         <section class="container edit-item mt-4 bg-white rounded">
     <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
-            <div class="container header-button d-flex justify-content-center gap-2">
-                <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col">Submission Center</a>
-                <button type="" class="btn mt-4">></button>
-                <a href="/edit-item-keywords" class="btn btn-warning text-white mt-4 col">Keywords</a>
-                <button type="" class="btn mt-4">></button>
-                <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col">Deposits</a>
-            </div>
+            <div class="container header-button d-flex flex-wrap justify-content-center gap-2">
+                <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col-md-3 col-6">Submission Center</a>
+                <button type="" class="btn mt-4 d-none d-md-block">></button>
+                <a href="/edit-item-keywords" class="btn btn-warning text-white mt-4 col-md-3 col-6">Keywords</a>
+                <button type="" class="btn mt-4 d-none d-md-block">></button>
+                <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col-md-3 col-6">Deposits</a>
+            </div>    
     <!-- akhir Header Button -->
 
     <!-- Deposits -->

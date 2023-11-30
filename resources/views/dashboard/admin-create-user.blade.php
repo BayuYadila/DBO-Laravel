@@ -18,24 +18,24 @@
         <div class="container bg-main-content mt-3 p-5">
         
     <!-- user type -->
-        <div class="container create-user-type d-flex justify-content-center gap-3 mt-5">
-            <h5 class="fw-bold">User Type :</h5>
-            <div class="d-block">
+        <div class="container create-user-type mt-5">
+            <h5 class="fw-bold">User Type:</h5>
+            <div class="d-block flex-wrap">
                 <div class="form-check">
-                    <label class="form-check-label" for="usertype1">
-                    <input class="form-check-input" type="radio" name="usertype" id="usertype1" value="option1" checked>
+                    <label class="form-check-label" for="createusertype1">
+                        <input class="form-check-input" type="radio" name="createusertype" id="createusertype1" value="option1" checked>
                         User
                     </label>
                 </div>
                 <div class="form-check">
-                    <label class="form-check-label" for="usertype2">
-                    <input class="form-check-input" type="radio" name="usertype" id="usertype2" value="option2">
+                    <label class="form-check-label" for="createusertype2">
+                        <input class="form-check-input" type="radio" name="createusertype" id="createusertype2" value="option2">
                         Editor
                     </label>
                 </div>
                 <div class="form-check">
-                    <label class="form-check-label" for="usertype3">
-                    <input class="form-check-input" type="radio" name="usertype" id="usertype3" value="option3">
+                    <label class="form-check-label" for="createusertype3">
+                        <input class="form-check-input" type="radio" name="createusertype" id="createusertype3" value="option3">
                         Repository Administrator
                     </label>
                 </div>
@@ -47,71 +47,69 @@
         <div class="container bg-main-username text-white mt-5 p-3 rounded">
             <h5 class="fw-bold">Username</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
-                <div class="w-50 mb-3">
-                    <input type="text" class="form-control" id="usernameInput" placeholder="Create your username">
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control" id="createusernameinput" placeholder="Create your username">
                 </div>
             </div>
         </div>
     {{-- akhir username --}}
 
     {{-- account details --}}
-        <div class="container bg-main-account-detail mt-5 text-white p-3 rounded">
-            <h5 class="fw-bold">Account Detail</h5>
-            <div class="mt-3 d-flex flex-column align-items-center">
-                <div class="w-50 mb-3">
-                    <h5>Email Address :</h5>
-                    <input type="text" class="form-control" id="emailaddressInput" placeholder="Enter your email address">
-                </div>
-                <div class="w-50 mb-3">
-                    <h5>Password :</h5>
-                    <input type="password" class="form-control" id="passwordInput" placeholder="Create your password">
-                </div>
+    <div class="container bg-main-account-detail mt-5 text-white p-3 rounded">
+        <h5 class="fw-bold">Account Detail</h5>
+        <div class="mt-3 d-flex flex-column align-items-center">
+            <div class="col-12 col-md-6 mb-3">
+                <h5>Email Address :</h5>
+                <input type="text" class="form-control" id="createemailaddressinput" placeholder="Enter your email address">
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <h5>Password :</h5>
+                <input type="password" class="form-control" id="createpasswordinput" placeholder="Create your password">
             </div>
         </div>
+    </div>            
     {{-- akhir account details --}}
 
     {{-- personal details --}}
         <div class="container bg-main-personal-details mt-5 text-white p-3 rounded">
             <h5 class="fw-bold">Personal Details</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
-                <div class="w-50 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <h5>Name :</h5>
-                <div class="row g-3">
-                    <div class="col">
-                        <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" id="lastNameInput" placeholder="Last Name">
+                    <div class="row g-3">
+                        <div class="col">
+                            <input type="text" class="form-control" id="createfirstnameinput" placeholder="First Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="createlastnameinput" placeholder="Last Name">
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="w-50 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <h5>Department :</h5>
-                    <input type="text" class="form-control" id="departmentInput" placeholder="Enter your department">
+                    <input type="text" class="form-control" id="createdepartmentinput" placeholder="Enter your department">
                 </div>
-                <div class="w-50 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <h5>Organization :</h5>
-                    <input type="text" class="form-control" id="organizationInput" placeholder="Enter your organization">
+                    <input type="text" class="form-control" id="createorganizationinput" placeholder="Enter your organization">
                 </div>
-                <div class="w-50 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <h5>Address :</h5>
-                    <input type="text" class="form-control" id="addressInput" placeholder="Enter your address">
+                    <input type="text" class="form-control" id="createaddressinput" placeholder="Enter your address">
                 </div>
-                <div class="w-50 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <h5>Country :</h5>
-                    <input type="text" class="form-control" id="countryInput" placeholder="Enter your country">
+                    <input type="text" class="form-control" id="createcountryinput" placeholder="Enter your country">
                 </div>
             </div>
-        </div>    
+        </div>
     {{-- akhir account details --}}
 
     {{-- action footer button --}}
-
-    <div class="footer-button p-4 d-flex justify-content-center gap-3">
-        <a href="/" class="btn btn-primary w-25 text-white">Cancel</a>
-        <a href="/" class="btn btn-primary w-25 text-white">Finish Create</a>
-    </div>
-
+    <div class="footer-button p-4 d-flex flex-column flex-md-row justify-content-md-center gap-3">
+        <a href="/" class="btn btn-primary w-100 mb-2 mb-md-0">Cancel</a>
+        <a href="/" class="btn btn-primary w-100">Finish Create</a>
+    </div>    
     {{-- akhir action footer button --}}
 
 

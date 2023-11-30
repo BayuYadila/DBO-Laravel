@@ -5,7 +5,7 @@
                 Latest Collections
             </div>
 
-            <div class="container p-2 content1 rounded mb-3">
+            <div class="container content1 rounded mb-3">
                 <div class="row bg-white rounded p-3">
                     <div class="col-md-6">
                         <div class="table-responsive">

@@ -9,8 +9,7 @@
     <h1 class="container header-title pt-4 fw-bold text-center">Admin</h1>
     <div class="container header-button d-flex justify-content-center gap-2">
         <a href="/admin-status" class="btn btn-warning text-white mt-4 col">Status</a>
-        <a href="/admin-create-user" class="btn btn-warning text-white mt-4 col">Create User</a>
-        <a href="/admin-edit-keywords" class="btn btn-warning text-white mt-4 col">Edit Keywords</a>
+        <a href="/admin-create-user" class="btn btn-warning text-white mt-4 col">Create User</a>\
     </div>
     <!-- Akhir Header Button -->
 
