@@ -5,19 +5,18 @@
 @section ("content")
 
         <section class="container admin-create-user mt-4 bg-white rounded p-3">
-    <!-- Header Button -->
+        <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold text-center">Admin</h1>
             <div class="container header-button d-flex justify-content-center gap-2">
                 <a href="/admin-status" class="btn btn-warning text-white mt-4 col">Status</a>
                 <a href="/admin-create-user" class="btn btn-warning text-white mt-4 col">Create User</a>
-                {{-- <a href="/admin-edit-keywords" class="btn btn-warning text-white mt-4 col">Edit Keywords</a> --}}
             </div>
-    <!-- Akhir Header Button -->
+        <!-- Akhir Header Button -->
     
-    <!-- Backround Main Admin create user -->
+        <!-- Backround Main Admin create user -->
         <div class="container bg-main-content mt-3 p-5">
         
-    <!-- user type -->
+        <!-- user type -->
         <div class="container create-user-type mt-5">
             <h5 class="fw-bold">User Type:</h5>
             <div class="d-block flex-wrap">
@@ -41,9 +40,9 @@
                 </div>
             </div>
         </div>    
-    <!-- Akhir user type -->
+        <!-- Akhir user type -->
 
-    {{-- username --}}
+        {{-- username --}}
         <div class="container bg-main-username text-white mt-5 p-3 rounded">
             <h5 class="fw-bold">Username</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
@@ -52,25 +51,25 @@
                 </div>
             </div>
         </div>
-    {{-- akhir username --}}
+        {{-- akhir username --}}
 
-    {{-- account details --}}
-    <div class="container bg-main-account-detail mt-5 text-white p-3 rounded">
-        <h5 class="fw-bold">Account Detail</h5>
-        <div class="mt-3 d-flex flex-column align-items-center">
-            <div class="col-12 col-md-6 mb-3">
-                <h5>Email Address :</h5>
-                <input type="text" class="form-control" id="createemailaddressinput" placeholder="Enter your email address">
-            </div>
-            <div class="col-12 col-md-6 mb-3">
-                <h5>Password :</h5>
-                <input type="password" class="form-control" id="createpasswordinput" placeholder="Create your password">
+        {{-- account details --}}
+        <div class="container bg-main-account-detail mt-5 text-white p-3 rounded">
+            <h5 class="fw-bold">Account Detail</h5>
+            <div class="mt-3 d-flex flex-column align-items-center">
+                <div class="col-12 col-md-6 mb-3">
+                    <h5>Email Address :</h5>
+                    <input type="text" class="form-control" id="createemailaddressinput" placeholder="Enter your email address">
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <h5>Password :</h5>
+                    <input type="password" class="form-control" id="createpasswordinput" placeholder="Create your password">
+                </div>
             </div>
         </div>
-    </div>            
-    {{-- akhir account details --}}
+        {{-- akhir account details --}}
 
-    {{-- personal details --}}
+        {{-- personal details --}}
         <div class="container bg-main-personal-details mt-5 text-white p-3 rounded">
             <h5 class="fw-bold">Personal Details</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
@@ -103,19 +102,19 @@
                 </div>
             </div>
         </div>
-    {{-- akhir account details --}}
+        {{-- akhir account details --}}
 
-    {{-- action footer button --}}
-    <div class="footer-button p-4 d-flex flex-column flex-md-row justify-content-md-center gap-3">
-        <a href="/" class="btn btn-primary w-100 mb-2 mb-md-0">Cancel</a>
-        <a href="/" class="btn btn-primary w-100">Finish Create</a>
-    </div>    
-    {{-- akhir action footer button --}}
+        {{-- action footer button --}}
+        <div class="footer-button p-4 d-flex flex-column flex-md-row justify-content-md-center gap-3">
+            <a href="/" class="btn btn-primary w-100 mb-2 mb-md-0">Cancel</a>
+            <a href="/" class="btn btn-primary w-100">Finish Create</a>
+        </div>    
+        {{-- akhir action footer button --}}
 
 
         </div>
-    <!-- background Main Akhir admin create user -->
-    </section>
+        <!-- background Main Akhir admin create user -->
+        </section>
 
 
 @endsection

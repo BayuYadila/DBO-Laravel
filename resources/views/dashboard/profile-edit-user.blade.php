@@ -5,14 +5,14 @@
 @section ("content")
 
         <section class="container profile-edit-user mt-4 bg-white rounded p-3">
-    <!-- Header Button -->
+        <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit</h1>
-    <!-- Akhir Header Button -->
+        <!-- Akhir Header Button -->
     
-    <!-- Backround Main Admin create user -->
+        <!-- Backround Main Admin create user -->
         <div class="container bg-main-content mt-3 p-5">
         
-    <!-- user type -->
+        <!-- user type -->
         <div class="container edit-user-type mt-5">
             <h5 class="fw-bold">User Type:</h5>
             <div class="d-block flex-wrap">
@@ -36,9 +36,9 @@
                 </div>
             </div>
         </div>       
-    <!-- Akhir user type -->
+        <!-- Akhir user type -->
 
-    {{-- username --}}
+        {{-- username --}}
         <div class="container bg-main-username text-white mt-5 p-3 rounded">
             <h5 class="fw-bold">Username</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
@@ -47,9 +47,9 @@
                 </div>
             </div>
         </div>
-    {{-- akhir username --}}
+        {{-- akhir username --}}
 
-    {{-- account details --}}
+        {{-- account details --}}
         <div class="container bg-main-account-detail mt-5 text-white p-3 rounded">
             <h5 class="fw-bold">Account Detail</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
@@ -63,9 +63,9 @@
                 </div>
             </div>
         </div>
-    {{-- akhir account details --}}
+        {{-- akhir account details --}}
 
-    {{-- personal details --}}
+        {{-- personal details --}}
         <div class="container bg-main-personal-details mt-5 text-white p-3 rounded">
             <h5 class="fw-bold">Personal Details</h5>
             <div class="mt-3 d-flex flex-column align-items-center">
@@ -98,18 +98,17 @@
                 </div>
             </div>
         </div>
-    {{-- akhir account details --}}
+        {{-- akhir account details --}}
 
-    {{-- action footer button --}}
+        {{-- action footer button --}}
         <div class="footer-button p-4 d-flex flex-column flex-md-row justify-content-md-center gap-3">
             <a href="/" class="btn btn-primary w-100 mb-2 mb-md-0">Cancel</a>
             <a href="/" class="btn btn-primary w-100">Save</a>
         </div>
-    {{-- akhir action footer button --}}
-
+        {{-- akhir action footer button --}}
 
         </div>
-    <!-- background Main Akhir admin create user -->
+    <!-- Akhir background Main admin create user -->
     </section>
 
 

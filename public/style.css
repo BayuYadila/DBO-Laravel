@@ -217,6 +217,10 @@
     margin-right: 10px;
 }
 
+.container-bg1 .bg-contact-us .form-contact-us {
+    background-color: #D9D9D9;
+}
+
 .container-bg1 .img-contact-us {
     filter: drop-shadow(2px 2px 2px black);
     -webkit-filter: drop-shadow(2px 2px 2px black);
@@ -496,7 +500,6 @@ section.signup-page a {
 .container-bg2 .admin-create-user .bg-main-personal-details {
     background-color: #1E5391;
 }
-
 /* akhir admin create user */
 
 /* admin edit keywords */

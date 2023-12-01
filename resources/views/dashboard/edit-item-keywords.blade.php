@@ -5,7 +5,7 @@
 @section ("content")
 
         <section class="container edit-item mt-4 bg-white rounded">
-    <!-- Header Button -->
+        <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex flex-wrap justify-content-center gap-2">
                 <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col-md-3 col-6">Submission Center</a>
@@ -14,20 +14,20 @@
                 <button type="" class="btn mt-4 d-none d-md-block">></button>
                 <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col-md-3 col-6">Deposits</a>
             </div>    
-    <!-- akhir Header Button -->
+        <!-- akhir Header Button -->
 
-    <!-- Keywords -->
+        <!-- Keywords -->
         <div class="container bg-main-content-edit-item-keywords mt-3 p-2">
 
-    <!-- filter keywords -->
+        <!-- filter keywords -->
         <div class="container mt-3 p-5">
             <div class="container filter-keywords text-center d-flex flex-column align-items-center">
                 <!-- Content akan ditambahkan di sini -->
             </div>
         </div>    
-    <!-- akhir filter keywords -->
+        <!-- akhir filter keywords -->
 
-    <!-- search for keywords -->
+        <!-- search for keywords -->
         <div class="container d-flex justify-content-center align-items-center flex-column">
             <h5 class="fw-bold text-center">Search for keywords:</h5>
             <form class="d-flex gap-2 w-50">
@@ -35,9 +35,9 @@
                 <button class="btn btn-primary">Search</button>
             </form>
         </div>    
-    <!-- search for keywords -->
+        <!-- search for keywords -->
 
-    <!-- main content keywords -->
+        <!-- main content keywords -->
         <div class="container mt-3">
             <div class="container">
                 <button class="btn collapsed" data-bs-toggle="collapse" href="#generalList" aria-expanded="false" aria-controls="generalList"> + General</button>
@@ -146,9 +146,9 @@
                 button.style.display = 'none'; // Sembunyikan tombol Add ketika sudah di-klik
             }
         </script>
-    <!-- akhir main content keywords -->
+        <!-- akhir main content keywords -->
 
-    <!-- Form untuk menambahkan keyword baru -->
+        <!-- Form untuk menambahkan keyword baru -->
         <div class="container mt-3">
             <h5 class="fw-bold text-center">Add New Keyword:</h5>
             <form class="d-flex justify-content-center align-items-center flex-column mt-3">
@@ -210,6 +210,5 @@
             </div>        
         <!-- Akhir Footer Button -->    
         </section>
-
 
 @endsection

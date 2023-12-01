@@ -22,50 +22,40 @@
         <title>Home | Digital Blue Ocean</title>
     </head>
     <body>
-    
-    @include("navbar")
-    
-    <div class="container-bg1">
-    
-    
+        @include("navbar")
+        <div class="container-bg1">
 
-    <!-- home page -->
-            <section class="home-page mb-4">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 text-white content1">
-                            <div class="header">
-                                <h1 class="fw-bold">Welcome <span class="regular fw-normal">In</span></h1>
-                                <h1 class="fw-bold">Digital Blue Ocean</h1>
-                            </div>
-                            <div class="d-flex justify-content-center">
+        <!-- home page -->
+        <section class="home-page mb-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-white content1">
+                        <div class="header">
+                            <h1 class="fw-bold">Welcome <span class="regular fw-normal">In</span></h1>
+                            <h1 class="fw-bold">Digital Blue Ocean</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
                             <a href="/about-us" aria-current="page" class="button left-button me-4 pt-2 text-decoration-none text-center">More</a>
                             <a href="/signup" aria-current="page" class="button right-button pt-2 text-decoration-none text-center">Sign Up Now</a>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 content2 mt-5">
-                            <img src="{{ asset('assets/img_landingPage.svg') }}" alt="Logo DBO" class="img-fluid">
                         </div>
                     </div>
+
+                    <div class="col-md-6 content2 mt-5">
+                        <img src="{{ asset('assets/img_landingPage.svg') }}" alt="Logo DBO" class="img-fluid">
+                    </div>
                 </div>
-            </section>
-    <!-- akhir landing page -->
+            </div>
+        </section>
+        <!-- akhir landing page -->
 
-    @include("landing_page.search-books")
+        @include("landing_page.search-books")
+        @include("landing_page.statistics")
+        @include("landing_page.about-us")
+        @include("landing_page.contact-us")
+        @include("landing_page.related-links")
+        </div>
 
-    @include("landing_page.statistics")
-
-    @include("landing_page.about-us")
-
-    @include("landing_page.contact-us")
-
-    @include("landing_page.related-links")
-    
-    
-    </div>
-
-    @include("footer")
+        @include("footer")
 
         <!-- Optional JavaScript; choose one of the two! -->
 

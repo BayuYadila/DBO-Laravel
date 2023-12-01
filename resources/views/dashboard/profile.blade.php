@@ -5,13 +5,13 @@
 @section ("content")
 
         <section class="container profile-page mt-4 bg-white rounded p-3">
-    <!-- Header Tittle -->
+        <!-- Header Tittle -->
             <h5 class="header-tittle pt-4">Users - <span class="text-primary">Admin digital Blue Ocean</span></h5>
-    <!-- Akhir Header Tittle -->
+        <!-- Akhir Header Tittle -->
     
-    <!-- Background Main Admin create user -->
+        <!-- Background Main Admin create user -->
         <div class="bg-main-content mt-3 p-5">
-    <!-- Main Content - Account -->
+        <!-- Main Content - Account -->
             <div class="main-content-profile">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <h3 class="mb-0">ACCOUNT PROFILE</h3>
@@ -37,12 +37,9 @@
                     </div>
                 </div>
             </div>
-    <!-- Akhir Main Content - Account -->
+        <!-- Akhir Main Content - Account -->
         </div>
-    <!-- Akhir Background Main Admin create user -->
-    
-    <!-- background Main Akhir admin create user -->
+        <!-- Akhir Background Main Admin create user -->
     </section>
-
 
 @endsection

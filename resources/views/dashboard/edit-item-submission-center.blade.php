@@ -5,7 +5,7 @@
 @section ("content")
 
         <section class="container edit-item mt-4 bg-white rounded">
-    <!-- Header Button -->
+        <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex flex-wrap justify-content-center gap-2">
                 <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col-md-3 col-6">Submission Center</a>
@@ -14,37 +14,37 @@
                 <button type="" class="btn mt-4 d-none d-md-block">></button>
                 <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col-md-3 col-6">Deposits</a>
             </div>            
-    <!-- Akhir Header Button -->
+        <!-- Akhir Header Button -->
     
-    <!-- Submission Center -->
+        <!-- Submission Center -->
         <div class="container bg-main-content-submissioncenter mt-3 p-5">
         
-    <!-- Item Type - Submission Center -->
-    <div class="container justify-content-center bg-white rounded p-3 d-flex d-md-flex flex-wrap align-items-center">
-        <h5 class="me-3 fw-bold">ITEM TYPE:</h5>
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Choose Item Type
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Article')">Article</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book Section')">Book Section</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book')">Book</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Thesis')">Thesis</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Conference of Workshop Item')">Conference of Workshop Item</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Other')">Other</a></li>
-            </ul>
-        </div>
-    </div>    
+        <!-- Item Type - Submission Center -->
+        <div class="container justify-content-center bg-white rounded p-3 d-flex d-md-flex flex-wrap align-items-center">
+            <h5 class="me-3 fw-bold">ITEM TYPE:</h5>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose Item Type
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Article')">Article</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book Section')">Book Section</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Book')">Book</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Thesis')">Thesis</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Conference of Workshop Item')">Conference of Workshop Item</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextItemType('Other')">Other</a></li>
+                </ul>
+            </div>
+        </div>   
         
         <script>
             function changeTextItemType(text) {
                 document.querySelector('.btn.btn-primary.dropdown-toggle').innerText = text;
             }
         </script>
-    <!-- Akhir Item Type - Submission Center -->
+        <!-- Akhir Item Type - Submission Center -->
 
-    <!-- Upload Item - Submission Center -->
+        <!-- Upload Item - Submission Center -->
         <div class="container mt-5 bg-white rounded upload-item p-3">
             <h5 class="text-center fw-bold text-header-content">ADD A NEW DOCUMENT</h5>
             <p class="text-main-content">To upload a document to this repository, click the Browse button below to select a file and the Upload button to upload it to the archive. You can then add additional files to the document or upload more files to create additional documents. Select the files you want to upload, attach the files by clicking the upload button below, and upload your files to continue the process.</p>
@@ -82,30 +82,30 @@
             </div>
         </div>
         </div>
-    <!-- Akhir Upload Item - Submission Center -->
+        <!-- Akhir Upload Item - Submission Center -->
 
-    <!-- Language - Submission Center -->
-    <div class="container justify-content-center bg-white mt-5 rounded p-3 d-flex d-md-flex flex-wrap align-items-center">
-        <h5 class="me-3 fw-bold">LANGUAGE:</h5>
-        <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                Choose language
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('English')">English</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('Indonesia')">Indonesia</a></li>
-            </ul>
-        </div>
-    </div>        
+        <!-- Language - Submission Center -->
+        <div class="container justify-content-center bg-white mt-5 rounded p-3 d-flex d-md-flex flex-wrap align-items-center">
+            <h5 class="me-3 fw-bold">LANGUAGE:</h5>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose language
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('English')">English</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0);" onclick="changeTextLanguage('Indonesia')">Indonesia</a></li>
+                </ul>
+            </div>
+        </div>        
         
         <script>
             function changeTextLanguage(text) {
                 document.getElementById('languageDropdown').innerText = text;
             }
         </script>    
-    <!-- Akhir Language - Submission Center -->
+        <!-- Akhir Language - Submission Center -->
 
-    <!-- Content Tittle - Submission Center -->
+        <!-- Content Tittle - Submission Center -->
         <div class="container mt-5 bg-white p-3 rounded">
             <h5 class="fw-bold">Title</h5>
             <form>
@@ -114,18 +114,18 @@
                 </div>
             </form>
         </div>
-    <!-- Akhir Content Tittle - Submission Center -->
+        <!-- Akhir Content Tittle - Submission Center -->
 
-    <!-- Content Abstract - Submission Center -->
+        <!-- Content Abstract - Submission Center -->
         <div class="container mt-5 bg-white p-3 rounded">
             <h5 class="fw-bold">Abstract</h5>
             <form>
                 <input type="text" class="form-control" id="abstractInput" placeholder="Enter your abstract">
             </form>
         </div>
-    <!-- Akhir Content Abstract - Submission Center -->
+        <!-- Akhir Content Abstract - Submission Center -->
 
-    <!-- Content Author - Submission Center -->
+        <!-- Content Author - Submission Center -->
         <div class="container bg-white mt-5 p-3">
             <h5 class="text-center fw-bold">Author's</h5>
             <div class="row">
@@ -235,9 +235,9 @@
                 return container;
             }           
         </script>
-    <!-- Akhir Content Author - Submission Center -->
+        <!-- Akhir Content Author - Submission Center -->
 
-    <!-- Author's Company - Submission Center -->
+        <!-- Author's Company - Submission Center -->
         <div class="container bg-white mt-5 p-3">
             <h5 class="text-center fw-bold">Author's Company</h5>
             <div id="authorsCompanyContainer">
@@ -278,12 +278,12 @@
                 container.appendChild(newInputGroup);
             });
         </script>
-    <!-- Akhir Author's Company - Submission Center -->
+        <!-- Akhir Author's Company - Submission Center -->
 
-    <!-- Publications Detail - Submission Center -->
+        <!-- Publications Detail - Submission Center -->
         <div class="container publication-details bg-white mt-5 p-3">
             <h3 class="text-center fw-bold">Publication Details</h3>
-                
+            
             <!-- Refereed - Publication Details -->
             <div class="container content-refereed-publicationdetails d-flex flex-column mt-5">
                 <h5 class="fw-bold">REFEREED :</h5>
@@ -337,12 +337,12 @@
             <!-- Akhir Status - Publication Details -->
 
             <!-- Journal or Publication Tittle - publication details -->
-                <div class="container content-journalorpublicationtittle-publicationdetails mt-5">
-                    <h5 class="fw-bold">JOURNAL OR PUBLICATION TITTLE :</h5>
-                    <form>
-                        <input type="text" class="form-control" id="journalorpublicationtittle" placeholder="Enter your journal or publication tittle">
-                    </form>
-                </div>
+            <div class="container content-journalorpublicationtittle-publicationdetails mt-5">
+                <h5 class="fw-bold">JOURNAL OR PUBLICATION TITTLE :</h5>
+                <form>
+                    <input type="text" class="form-control" id="journalorpublicationtittle" placeholder="Enter your journal or publication tittle">
+                </form>
+            </div>
             <!-- Akhir Journal or Publication Tittle - publication details -->
 
             <!-- ISSN - publication details -->
@@ -355,12 +355,12 @@
             <!-- akhir ISSN - publication details -->
 
             <!-- Publisher - publication details -->
-                <div class="container content-publisher-publicationdetails mt-5">
-                    <h5 class="fw-bold">PUBLISHER :</h5>
-                    <form>
-                        <input type="text" class="form-control" id="publisherpublicationdetails" placeholder="Enter your publisher journal">
-                    </form>
-                </div>
+            <div class="container content-publisher-publicationdetails mt-5">
+                <h5 class="fw-bold">PUBLISHER :</h5>
+                <form>
+                    <input type="text" class="form-control" id="publisherpublicationdetails" placeholder="Enter your publisher journal">
+                </form>
+            </div>
             <!-- akhir Publisher - publication details -->
 
             {{-- upload image cover --}}
@@ -404,41 +404,41 @@
             {{-- akhir upload image cover --}}
 
             <!-- Official URL - publication details -->
-                <div class="container content-issn-publicationdetails mt-5">
-                    <h5 class="fw-bold">OFFICIAL URL :</h5>
-                    <form>
-                        <input type="text" class="form-control" id="issnpublicationdetails" placeholder="Enter your official url journal">
-                    </form>
-                </div>
+            <div class="container content-issn-publicationdetails mt-5">
+                <h5 class="fw-bold">OFFICIAL URL :</h5>
+                <form>
+                    <input type="text" class="form-control" id="issnpublicationdetails" placeholder="Enter your official url journal">
+                </form>
+            </div>
             <!-- akhir Official URL - publication details -->
 
             <!-- Volume - publication details -->
-                <div class="container content-volume-publicationdetails mt-5">
-                    <h5 class="fw-bold">VOLUME :</h5>
-                    <form>
-                        <input type="text" class="form-control" id="volumepublicationdetails" placeholder="Enter your volume journal">
-                    </form>
-                </div>
+            <div class="container content-volume-publicationdetails mt-5">
+                <h5 class="fw-bold">VOLUME :</h5>
+                <form>
+                    <input type="text" class="form-control" id="volumepublicationdetails" placeholder="Enter your volume journal">
+                </form>
+            </div>
             <!-- akhir Volume - publication details -->
 
             <!-- Number - publication details -->
-                <div class="container content-number-publicationdetails mt-5">
-                    <h5 class="fw-bold">NUMBER :</h5>
-                    <form>
-                        <input type="text" class="form-control" id="numberpublicationdetails" placeholder="Enter your number journal">
-                    </form>
-                </div>
+            <div class="container content-number-publicationdetails mt-5">
+                <h5 class="fw-bold">NUMBER :</h5>
+                <form>
+                    <input type="text" class="form-control" id="numberpublicationdetails" placeholder="Enter your number journal">
+                </form>
+            </div>
             <!-- akhir Number - publication details -->
 
             <!-- Page Range - publication details -->
-                <div class="container content-pagerange-publicationdetails mt-5">
-                    <h5 class="fw-bold">PAGE RANGE :</h5>
-                    <form class="d-flex gap-3">
-                        <input type="text" class="form-control" id="pagerangepublicationdetails1" placeholder="from page">
-                        <h3>-</h3>
-                        <input type="text" class="form-control" id="pagerangepublicationdetails2" placeholder="to page">
-                    </form>
-                </div>
+            <div class="container content-pagerange-publicationdetails mt-5">
+                <h5 class="fw-bold">PAGE RANGE :</h5>
+                <form class="d-flex gap-3">
+                    <input type="text" class="form-control" id="pagerangepublicationdetails1" placeholder="from page">
+                    <h3>-</h3>
+                    <input type="text" class="form-control" id="pagerangepublicationdetails2" placeholder="to page">
+                </form>
+            </div>
             <!-- akhir Page Range - publication details -->
 
             <!-- date - publication details -->
@@ -540,9 +540,9 @@
             </div>            
             <!-- Akhir Data Type - Publication Details -->
         </div>
-    <!-- Akhir Publication Detail - Submission Center -->
+        <!-- Akhir Publication Detail - Submission Center -->
 
-    <!-- Contact Email Address - Submission Center -->
+        <!-- Contact Email Address - Submission Center -->
         <div class="accordion mt-5" id="accordionContactEmail">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingContactEmail">
@@ -559,9 +559,9 @@
                 </div>
             </div>
         </div>    
-    <!-- Akhir Contact Email Address - Submission Center -->
+        <!-- Akhir Contact Email Address - Submission Center -->
 
-    <!-- References - Submission Center -->
+        <!-- References - Submission Center -->
         <div class="accordion mt-5" id="accordionReferences">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingReferences">
@@ -578,17 +578,16 @@
                 </div>
             </div>
         </div>
-    <!-- Akhir References - Submission Center -->
+        <!-- Akhir References - Submission Center -->
         </div>
-    <!-- Akhir Submission Center -->
+        <!-- Akhir Submission Center -->
         
-    <!-- Footer Button -->
+        <!-- Footer Button -->
         <div class="footer-button p-4 d-flex justify-content-center gap-3">
             <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
             <a href="/edit-item-keywords" class="btn btn-warning text-white">Next</a>
         </div>
-    <!-- Akhir Footer Button -->
-    </section>
-
+        <!-- Akhir Footer Button -->
+        </section>
 
 @endsection

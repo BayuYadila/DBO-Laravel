@@ -5,7 +5,7 @@
 @section ("content")
 
         <section class="container edit-item mt-4 bg-white rounded">
-    <!-- Header Button -->
+        <!-- Header Button -->
             <h1 class="container header-tittle pt-4 fw-bold">Edit Item</h1>
             <div class="container header-button d-flex flex-wrap justify-content-center gap-2">
                 <a href="/edit-item-submission-center" class="btn btn-warning text-white mt-4 col-md-3 col-6">Submission Center</a>
@@ -14,12 +14,12 @@
                 <button type="" class="btn mt-4 d-none d-md-block">></button>
                 <a href="/edit-item-deposits" class="btn btn-warning text-white mt-4 col-md-3 col-6">Deposits</a>
             </div>    
-    <!-- akhir Header Button -->
+        <!-- akhir Header Button -->
 
-    <!-- Deposits -->
+        <!-- Deposits -->
         <div class="container bg-main-content-deposits mt-3 p-2">
         
-    <!-- Main Content Deposits -->
+        <!-- Main Content Deposits -->
         <div class="container mt-3">
             <p class="main-text-deposits mb-3">
                 As an editor of this item, you can move it into review without first resolving the identified issues. Otherwise, click 'Save and Return' to address these issues later.
@@ -38,19 +38,18 @@
                 <a href="/deposits-item" class="btn btn-dark text-white">DEPOSITS ITEM NOW</a>
                 <a href="/manage-deposits" class="btn btn-dark text-white">SAVE FOR LATER</a>
             </div> 
-
         </div>    
-    <!-- akhir Main Content Deposits -->
+        <!-- akhir Main Content Deposits -->
         </div>
-    <!-- Akhir Deposits -->
+        <!-- Akhir Deposits -->
 
-    <!-- Footer Button -->
+        <!-- Footer Button -->
         <div class="footer-button p-4 d-flex justify-content-center gap-3">
             <a href="/edit-item-keywords" class="btn btn-warning text-white">Previous</a>
             <a href="/save-and-return-page" class="btn btn-warning text-white">Save and Return</a>
         </div> 
         <!-- akhir Footer Button -->           
-    </section>
+        </section>
 
 
 @endsection
